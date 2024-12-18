@@ -33,7 +33,7 @@ public class MovieSeviceController {
 		Movie movie1=movieService.addMovie(movie);
 		return ResponseEntity.ok(movie);
 		}
-	@GetMapping()
+	@GetMapping("/")
 	public ResponseEntity<List<Movie>> getAllMovies() {
         List<Movie> movies = movieService.getAllMovies();
         return ResponseEntity.ok(movies);

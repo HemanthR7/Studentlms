@@ -21,10 +21,10 @@ public class MovieService {
 		
 	}
 
-	public List<Movie> getAllMovie() {
-		
-		  return movieServiceRepository.findAll(); 
-		}
+//	public List<Movie> getAllMovie() {
+//		
+//		  return movieServiceRepository.findAll(); 
+//		}
 
 	public List<Movie> getAllMovies() {
 		List<Movie>movies=(List<Movie>) movieServiceRepository.findAll();
