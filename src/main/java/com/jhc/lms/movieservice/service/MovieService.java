@@ -44,5 +44,20 @@ public class MovieService {
 		
 	}
 
+//	public void deleteByName(String name) {
+//		 movieServiceRepository.deleteByName(name);
+//		
+//	}
+
+	
+
+		
+	
+
+	
+		
+	
+
+	
 
 }

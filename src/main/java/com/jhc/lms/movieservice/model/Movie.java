@@ -11,6 +11,7 @@ import jakarta.persistence.Id;
 @Entity
 
 public class Movie {
+	@SuppressWarnings("deprecation")
 	@Id
 	@GeneratedValue(strategy=GenerationType.SEQUENCE,generator="seq_movie")
 	@GenericGenerator(name="seq_movie",strategy="increment")

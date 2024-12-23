@@ -7,5 +7,7 @@ import com.jhc.lms.movieservice.model.Movie;
 
 @Repository
 public interface MovieServiceRepository extends JpaRepository<Movie,Long>{
+
+//	void deleteByName(String name);
 	
 }
